@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Portfolio of Gowri Shankar A, Computer Science student at KG College of Arts and Science.">
+  <title>Gowri Shankar A — Computer Science Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="wordmark" href="#home" aria-label="Gowri Shankar home">GS<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="nav-contact">Contact <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE STUDENT</p>
+        <h1>Curious mind.<br><span>Practical thinking.</span></h1>
+        <p class="hero-description">I'm <strong>Gowri Shankar A</strong>, a Computer Science student building my foundation in programming, web technologies, and problem-solving.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="#contact">Let's connect <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <div><span class="meta-label">STUDYING</span><span>BCS Computer Science</span></div>
+          <div><span class="meta-label">GRADUATING</span><span>2028</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="portrait-frame">
+          <!-- Replace assets/profile-placeholder.svg with your photo, or update the image src below. -->
+          <img src="assets/profile-placeholder.svg" alt="Profile photo placeholder for Gowri Shankar A" class="portrait" id="profile-photo">
+          <div class="portrait-caption"><span class="caption-mark">✳</span><div><strong>Learning by building</strong><span>One step at a time.</span></div></div>
+        </div>
+        <span class="visual-note">COIMBATORE · INDIA</span>
+      </div>
+    </section>
+
+    <section class="quick-facts">
+      <div class="container facts-inner">
+        <p>Currently focused on</p>
+        <div class="fact"><span class="fact-number">01</span><span>Programming fundamentals</span></div>
+        <div class="fact"><span class="fact-number">02</span><span>Web development</span></div>
+        <div class="fact"><span class="fact-number">03</span><span>Continuous learning</span></div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">01 / ABOUT</p>
+        <h2>A little about<br>what drives me.</h2>
+      </div>
+      <div class="section-content about-content">
+        <p class="lead">I’m pursuing a BCS in Computer Science at KG College of Arts and Science, with an expected graduation year of 2028.</p>
+        <p>I enjoy learning how technology works and turning new concepts into practical skills. I’m currently developing my knowledge of Python, Java, and CSS, and looking forward to applying what I learn through projects and collaboration.</p>
+        <div class="education-card">
+          <div class="education-icon" aria-hidden="true">↗</div>
+          <div><span class="meta-label">EDUCATION</span><h3>KG College of Arts and Science</h3><p>BCS Computer Science · Expected 2028</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">02 / SKILLS</p>
+          <h2>Tools I'm learning<br>and working with.</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card"><span class="skill-index">01</span><div class="skill-icon python-icon">Py</div><h3>Python</h3><p>Programming basics and problem-solving.</p></article>
+          <article class="skill-card"><span class="skill-index">02</span><div class="skill-icon java-icon">J</div><h3>Java</h3><p>Object-oriented programming fundamentals.</p></article>
+          <article class="skill-card"><span class="skill-index">03</span><div class="skill-icon css-icon">#</div><h3>CSS</h3><p>Styling responsive, accessible web pages.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading project-heading">
+        <div><p class="eyebrow">03 / PROJECTS</p><h2>Selected work.</h2></div>
+        <p class="heading-note">A space for projects as I build and learn.</p>
+      </div>
+      <div class="empty-projects">
+        <div class="empty-symbol" aria-hidden="true">＋</div>
+        <div><h3>Projects are on the way.</h3><p>This section is ready for your first project. Add its title, a short description, and a link in <code>index.html</code> when you're ready.</p></div>
+        <span class="coming-soon">IN PROGRESS</span>
+      </div>
+      <!-- To add a project, replace the empty-projects block with project-card articles.
+           Example: <article class="project-card"><p class="eyebrow">WEB DEVELOPMENT</p><h3>Project title</h3><p>Short description.</p><a href="https://example.com">View project ↗</a></article> -->
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-layout">
+        <div class="contact-copy">
+          <p class="eyebrow">04 / CONTACT</p>
+          <h2>Have an idea?<br><span>Let's talk.</span></h2>
+          <p>I'm open to connecting with fellow students, learning from others, and discussing opportunities to grow.</p>
+          <a class="email-link" href="mailto:gowrishankar1303@gmail.com">gowrishankar1303@gmail.com <span aria-hidden="true">↗</span></a>
+          <div class="social-links">
+            <a href="https://github.com/gowrishankar1303" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            <a href="https://www.linkedin.com/in/gowri-shankar-2a586a3a1" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-row">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" placeholder="Jane Smith" autocomplete="name" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" placeholder="jane@example.com" autocomplete="email" required>
+          </div>
+          <div class="form-row">
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" placeholder="What would you like to discuss?" required>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+          </div>
+          <button class="button button-dark submit-button" type="submit">Send message <span aria-hidden="true">↗</span></button>
+          <p class="form-note" id="form-note" role="status">This form opens your email app to send the message.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="wordmark" href="#home">GS<span>.</span></a>
+      <p>Designed with care · <span id="year">2026</span></p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
